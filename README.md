@@ -21,30 +21,42 @@ The project follows a layered architecture to ensure scalability, maintainabilit
 ## 📁 Project Structure
 
 UnitOfWorkAndxUnit.sln
-│
-├── UnitOfWorkDemo.Domain
-│   ├── Entities
-│   ├── Interfaces
-│   └── Base Domain Models
-│
-├── UnitOfWorkDemo.Infrastructure
-│   ├── EF Core DbContext
-│   ├── Generic Repository Implementations
-│   ├── Unit of Work Implementation
-│   └── Dependency Injection Containers
-│
-├── UnitOfWorkDemo.Application
-│   ├── Services
-│   ├── DTOs
-│   └── Business Rules
-│
-├── UnitOfWorkDemo.Tests
-│   ├── xUnit Test Cases
-│   └── Mocked Dependencies
-│
-├── UnitOfWorkAndxUnit.ReportingApi
-└── UnitOfWorkAndUnitTest.Api
 
+UnitOfWorkDemo.Domain
+
+Entities
+
+Interfaces
+
+Base Domain Models
+
+UnitOfWorkDemo.Infrastructure
+
+EF Core DbContext
+
+Generic Repository Implementations
+
+Unit of Work Implementation
+
+Dependency Injection Containers
+
+UnitOfWorkDemo.Application
+
+Services
+
+DTOs
+
+Business Rules
+
+UnitOfWorkDemo.Tests
+
+xUnit Test Cases
+
+Mocked Dependencies
+
+UnitOfWorkAndxUnit.ReportingApi
+
+UnitOfWorkAndUnitTest.Api
 
 ---
 
